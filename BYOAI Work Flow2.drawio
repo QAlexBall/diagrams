@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T09:39:20.956Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="PcjVsVardTeZCpt0jru-" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T09:41:30.828Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="lpRSYeZLwkh5vGEO2F6F" version="14.4.6" type="github">
   <diagram id="EJ-8bm11QLcLi5T-vXhF" name="Page-1">
     <mxGraphModel dx="1069" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="hkcfiitKyaItqLOflqOH-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="455" y="400" width="250" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="hkcfiitKyaItqLOflqOH-1" value="Quick UI Test" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fillColor=#FFFFCC;" vertex="1" parent="1">
+        <mxCell id="hkcfiitKyaItqLOflqOH-1" value="Quick UI Test" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fillColor=#E6FFCC;" vertex="1" parent="1">
           <mxGeometry x="175" y="220" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hkcfiitKyaItqLOflqOH-2" value="BYOAI Flow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -155,22 +155,28 @@
           <mxGeometry x="385" y="210" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hkcfiitKyaItqLOflqOH-71" value="Sanity Test" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="120" y="120" width="80" height="20" as="geometry" />
+          <mxGeometry x="40" y="710" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hkcfiitKyaItqLOflqOH-72" value="1days" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="200" y="120" width="70" height="20" as="geometry" />
+          <mxGeometry x="120" y="710" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hkcfiitKyaItqLOflqOH-73" value="Installation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fillColor=#F19C99;" vertex="1" parent="1">
-          <mxGeometry x="120" y="90" width="80" height="20" as="geometry" />
+          <mxGeometry x="40" y="680" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hkcfiitKyaItqLOflqOH-75" value="2-3days" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="200" y="90" width="70" height="20" as="geometry" />
+          <mxGeometry x="120" y="680" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hkcfiitKyaItqLOflqOH-77" value="Quick UI Test" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fillColor=#FFFFCC;" vertex="1" parent="1">
-          <mxGeometry x="120" y="150" width="80" height="20" as="geometry" />
+        <mxCell id="hkcfiitKyaItqLOflqOH-77" value="Quick UI Test" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fillColor=#E6FFCC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="740" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hkcfiitKyaItqLOflqOH-78" value="1hours" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="200" y="150" width="70" height="20" as="geometry" />
+          <mxGeometry x="120" y="740" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hkcfiitKyaItqLOflqOH-81" value="Upgrade BYOAI" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="770" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hkcfiitKyaItqLOflqOH-82" value="According to network speed&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="125" y="770" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
