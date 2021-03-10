@@ -1,48 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T06:32:17.222Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="yPG9KYHgHpu8PFDa6Njh" version="14.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T09:24:27.329Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="QDz1yGK63a_ZdUr4J-ZI" version="14.4.6" type="github">
   <diagram id="4MpO-mHFq29Pg5PuqAJ6" name="Page-1">
     <mxGraphModel dx="1550" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-1" value="Videos from client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-2" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rAPLxB1WvlFLBNGbYPzv-1" target="rAPLxB1WvlFLBNGbYPzv-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="330" y="290" as="sourcePoint" />
-            <mxPoint x="320" y="370" as="targetPoint" />
+            <mxPoint x="420" y="290" as="sourcePoint" />
+            <mxPoint x="410" y="370" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rAPLxB1WvlFLBNGbYPzv-3" value="Video convert&lt;br&gt;re-encoding&lt;br&gt;require 720p 10fps" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="330" width="120" height="60" as="geometry" />
+        <mxCell id="rAPLxB1WvlFLBNGbYPzv-3" value="Video convert&lt;br&gt;re-encoding&lt;br&gt;require 720p 10fps" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="370" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rAPLxB1WvlFLBNGbYPzv-3" target="rAPLxB1WvlFLBNGbYPzv-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="260" as="sourcePoint" />
-            <mxPoint x="340" y="440" as="targetPoint" />
+            <mxPoint x="440" y="260" as="sourcePoint" />
+            <mxPoint x="430" y="440" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rAPLxB1WvlFLBNGbYPzv-5" value="Setup video as RTSP Stream" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="rAPLxB1WvlFLBNGbYPzv-5" value="Setup video as RTSP Stream" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="370" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rAPLxB1WvlFLBNGbYPzv-6" value="VLC Test RTSP Stream" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="510" width="120" height="60" as="geometry" />
+        <mxCell id="rAPLxB1WvlFLBNGbYPzv-6" value="VLC Test RTSP Stream" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="370" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rAPLxB1WvlFLBNGbYPzv-5" target="rAPLxB1WvlFLBNGbYPzv-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="540" as="sourcePoint" />
-            <mxPoint x="530" y="490" as="targetPoint" />
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-8" value="Process in BYOAI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="rAPLxB1WvlFLBNGbYPzv-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="571" as="sourcePoint" />
-            <mxPoint x="505" y="610" as="targetPoint" />
+            <mxPoint x="430" y="571" as="sourcePoint" />
+            <mxPoint x="595" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-11" value="Pass" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="rAPLxB1WvlFLBNGbYPzv-10">
@@ -50,13 +50,13 @@
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rAPLxB1WvlFLBNGbYPzv-6" target="rAPLxB1WvlFLBNGbYPzv-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="342.44000000000005" y="581.02" as="sourcePoint" />
-            <mxPoint x="450" y="360" as="targetPoint" />
+            <mxPoint x="432.44000000000005" y="581.02" as="sourcePoint" />
+            <mxPoint x="540" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="360" y="590" />
-              <mxPoint x="420" y="590" />
               <mxPoint x="450" y="590" />
-              <mxPoint x="450" y="360" />
+              <mxPoint x="510" y="590" />
+              <mxPoint x="540" y="590" />
+              <mxPoint x="540" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -64,25 +64,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-16" value="QA &amp;amp; Record Video" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rAPLxB1WvlFLBNGbYPzv-8" target="rAPLxB1WvlFLBNGbYPzv-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="490" as="sourcePoint" />
-            <mxPoint x="350" y="520" as="targetPoint" />
+            <mxPoint x="440" y="490" as="sourcePoint" />
+            <mxPoint x="440" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-19" value="Send QA Result &amp;amp; Recorded Video" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="810" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="810" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-22" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rAPLxB1WvlFLBNGbYPzv-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="760" as="sourcePoint" />
-            <mxPoint x="460" y="630" as="targetPoint" />
+            <mxPoint x="430" y="760" as="sourcePoint" />
+            <mxPoint x="550" y="630" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="400" y="790" />
-              <mxPoint x="480" y="790" />
-              <mxPoint x="480" y="740" />
+              <mxPoint x="490" y="790" />
+              <mxPoint x="570" y="790" />
+              <mxPoint x="570" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -91,8 +91,8 @@
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rAPLxB1WvlFLBNGbYPzv-16" target="rAPLxB1WvlFLBNGbYPzv-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="760" as="sourcePoint" />
-            <mxPoint x="560" y="740" as="targetPoint" />
+            <mxPoint x="430" y="760" as="sourcePoint" />
+            <mxPoint x="650" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-26" value="Pass" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="rAPLxB1WvlFLBNGbYPzv-25">
@@ -100,17 +100,17 @@
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-27" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="rAPLxB1WvlFLBNGbYPzv-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="639" as="sourcePoint" />
-            <mxPoint x="60" y="630" as="targetPoint" />
+            <mxPoint x="110" y="639" as="sourcePoint" />
+            <mxPoint x="150" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-28" value="BYOAI Installed in Office" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rAPLxB1WvlFLBNGbYPzv-31" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rAPLxB1WvlFLBNGbYPzv-28" target="rAPLxB1WvlFLBNGbYPzv-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="210" y="640" as="sourcePoint" />
-            <mxPoint x="270" y="641" as="targetPoint" />
+            <mxPoint x="300" y="640" as="sourcePoint" />
+            <mxPoint x="360" y="641" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
