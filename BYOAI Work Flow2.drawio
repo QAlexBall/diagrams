@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-22T12:24:54.277Z" agent="5.0 (iPad; CPU OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/87.0.4280.77 Mobile/15E148 Safari/604.1" etag="eYzXPpATouoauCvTiQ4m" version="14.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T05:13:23.294Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="NYVjiCd2yMuANxw0k9Uv" version="14.4.3" type="github">
   <diagram id="EJ-8bm11QLcLi5T-vXhF" name="Page-1">
-    <mxGraphModel dx="3343" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -446,6 +446,27 @@
             <mxPoint x="1260" y="680" as="sourcePoint" />
             <mxPoint x="1310" y="630" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="rSGHDeVhnSgzoMN0RiB1-2" value="workstation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSGHDeVhnSgzoMN0RiB1-3" value="ProductionLine" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSGHDeVhnSgzoMN0RiB1-4" value="ProductModel (SKU)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSGHDeVhnSgzoMN0RiB1-5" value="SOP Bounding Box" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSGHDeVhnSgzoMN0RiB1-6" value="WorkProcess" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSGHDeVhnSgzoMN0RiB1-7" value="WorkProcessSOP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rSGHDeVhnSgzoMN0RiB1-8" value="Entity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
