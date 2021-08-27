@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-27T07:39:07.302Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="7Yt0YiFjuqVyrLeFDgb3" version="14.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-27T07:39:42.604Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="P3tDA-ycjCo2NvOyCvXQ" version="14.9.9" type="github">
   <diagram id="-8rYAdaRne_medxheXFg" name="Page-1">
     <mxGraphModel dx="1550" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -190,6 +190,9 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1250" y="320" as="sourcePoint" />
             <mxPoint x="1300" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1430" y="40" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BoX9NHfvs7r--DL0Gee8-73" value="Kafka" style="swimlane;fillColor=#FFCE9F;" parent="1" vertex="1">
@@ -253,10 +256,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BoX9NHfvs7r--DL0Gee8-96" value="Data Source" style="swimlane;fillColor=#FFCE9F;" parent="1" vertex="1">
-          <mxGeometry x="940" y="-230" width="670" height="310" as="geometry" />
+          <mxGeometry x="950" y="-230" width="670" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="BoX9NHfvs7r--DL0Gee8-71" value="Inferencing Worker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" parent="BoX9NHfvs7r--DL0Gee8-96" vertex="1">
-          <mxGeometry x="500" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="BoX9NHfvs7r--DL0Gee8-71" value="byoai&lt;br&gt;Inferencing Worker" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" parent="BoX9NHfvs7r--DL0Gee8-96" vertex="1">
+          <mxGeometry x="460" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BoX9NHfvs7r--DL0Gee8-97" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCE9F;" parent="BoX9NHfvs7r--DL0Gee8-96" vertex="1">
           <mxGeometry x="50" y="70" width="330" height="230" as="geometry" />
