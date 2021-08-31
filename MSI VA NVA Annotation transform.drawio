@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-31T07:18:34.176Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Ouz7rokC59EoiKeYVTsF" version="15.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-31T08:05:18.075Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="0SsQlVweA5IxWvO-gTRc" version="15.0.2" type="github">
   <diagram id="uShn4_YHinxp-DKjPIYS" name="Page-1">
     <mxGraphModel dx="1550" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -158,6 +158,18 @@
         </mxCell>
         <mxCell id="4qYPAmRgovbWjJGFVaSB-62" value="put new task to workstation&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="680" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4qYPAmRgovbWjJGFVaSB-66" value="002 CVAT Task in MSI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="370" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qYPAmRgovbWjJGFVaSB-67" value="002 CVAT Task in MSI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="380" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qYPAmRgovbWjJGFVaSB-68" value="002 CVAT Task in MSI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="390" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4qYPAmRgovbWjJGFVaSB-69" value="002 CVAT Task in MSI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="400" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
