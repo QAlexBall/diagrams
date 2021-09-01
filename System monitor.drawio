@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-31T09:44:04.221Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="-FN8XCXE7ZsS_5AdhmCS" version="15.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-01T03:38:52.779Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="N5RwmRj_ZdqWo0OwxcE5" version="15.0.2" type="github">
   <diagram id="loM0l3aEy5fwngCcPqAx" name="Page-1">
-    <mxGraphModel dx="1550" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,14 +25,8 @@
         <mxCell id="68EpW2Q39iIY3JV0uZgi-5" value="Coredb&lt;br&gt;Log" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="68EpW2Q39iIY3JV0uZgi-6">
           <mxGeometry x="105" y="40" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="68EpW2Q39iIY3JV0uZgi-15" value="Swarm&lt;br&gt;(service version controll)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="68EpW2Q39iIY3JV0uZgi-6">
-          <mxGeometry x="10" y="42.5" width="70" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="68EpW2Q39iIY3JV0uZgi-16" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="68EpW2Q39iIY3JV0uZgi-6" source="68EpW2Q39iIY3JV0uZgi-15" target="68EpW2Q39iIY3JV0uZgi-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="180" as="sourcePoint" />
-            <mxPoint x="360" y="130" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="68EpW2Q39iIY3JV0uZgi-60" value="System monitor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="68EpW2Q39iIY3JV0uZgi-6">
+          <mxGeometry x="20" y="50" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-8" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="68EpW2Q39iIY3JV0uZgi-9" target="68EpW2Q39iIY3JV0uZgi-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -59,9 +53,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-13" value="Infrencing Worker&lt;br&gt;(Deploy log)&lt;br&gt;(model version, config)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="50" y="380" width="160" height="60" as="geometry" />
+          <mxGeometry x="120" y="380" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="68EpW2Q39iIY3JV0uZgi-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="68EpW2Q39iIY3JV0uZgi-13" target="68EpW2Q39iIY3JV0uZgi-5">
+        <mxCell id="68EpW2Q39iIY3JV0uZgi-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="68EpW2Q39iIY3JV0uZgi-13" target="68EpW2Q39iIY3JV0uZgi-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="320" as="sourcePoint" />
             <mxPoint x="400" y="270" as="targetPoint" />
@@ -175,6 +169,33 @@
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-55" value="slack&lt;br&gt;gmail" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="642.5" y="680" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68EpW2Q39iIY3JV0uZgi-58" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 13px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Seperate system monitor from core to other repo&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68EpW2Q39iIY3JV0uZgi-15" value="Swarm&lt;br&gt;(service version controll)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="20" y="375" width="70" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="68EpW2Q39iIY3JV0uZgi-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="68EpW2Q39iIY3JV0uZgi-15" target="68EpW2Q39iIY3JV0uZgi-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="380" as="sourcePoint" />
+            <mxPoint x="400" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68EpW2Q39iIY3JV0uZgi-59" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="68EpW2Q39iIY3JV0uZgi-58" target="68EpW2Q39iIY3JV0uZgi-60">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="450" as="sourcePoint" />
+            <mxPoint x="560" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="68EpW2Q39iIY3JV0uZgi-61" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="68EpW2Q39iIY3JV0uZgi-32" target="68EpW2Q39iIY3JV0uZgi-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="440" as="sourcePoint" />
+            <mxPoint x="560" y="390" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
