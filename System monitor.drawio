@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T02:37:30.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="03H8zCErwiIcigACQLwq" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-02T02:37:58.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="sbgeNtuE9bSdaf2vyQst" version="14.9.8" type="github">
   <diagram id="loM0l3aEy5fwngCcPqAx" name="Page-1">
     <mxGraphModel dx="2036" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-13" value="Infrencing Worker&lt;br&gt;(Deploy log)&lt;br&gt;(model version, config)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
-          <mxGeometry x="120" y="380" width="140" height="60" as="geometry" />
+          <mxGeometry x="40" y="380" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="68EpW2Q39iIY3JV0uZgi-13" target="68EpW2Q39iIY3JV0uZgi-60" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -177,18 +177,18 @@
           <mxGeometry x="662.5" y="680" width="85" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aNaDECgKNZufi2HG2jja-1" value="Training start - end" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="220" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="190" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-58" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 13px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Seperate system monitor from core to other repo&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="-90" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aNaDECgKNZufi2HG2jja-2" value="why training can not finish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="-210" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-15" value="Swarm&lt;br&gt;(service version controll)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
-          <mxGeometry x="20" y="375" width="70" height="65" as="geometry" />
+          <mxGeometry x="-40" y="375" width="70" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="aNaDECgKNZufi2HG2jja-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aNaDECgKNZufi2HG2jja-1" target="68EpW2Q39iIY3JV0uZgi-5">
+        <mxCell id="aNaDECgKNZufi2HG2jja-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="aNaDECgKNZufi2HG2jja-1" target="68EpW2Q39iIY3JV0uZgi-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="470" as="sourcePoint" />
             <mxPoint x="540" y="420" as="targetPoint" />
@@ -201,7 +201,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aNaDECgKNZufi2HG2jja-4" value="preannotation stuck" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="-200" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-59" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="68EpW2Q39iIY3JV0uZgi-58" target="68EpW2Q39iIY3JV0uZgi-60">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
