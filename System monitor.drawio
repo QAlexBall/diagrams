@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T05:13:53.192Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="EquH7FR8HhCcy7VOwRKk" version="15.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T08:40:12.402Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="q9Diwzqnjok-QtwPP7eM" version="15.0.5" type="github">
   <diagram id="loM0l3aEy5fwngCcPqAx" name="Page-1">
     <mxGraphModel dx="3250" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-13" value="Infrencing Worker&lt;br&gt;(Deploy log)&lt;br&gt;(model version, config)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
-          <mxGeometry x="-670" y="355" width="140" height="60" as="geometry" />
+          <mxGeometry x="-960" y="490" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="68EpW2Q39iIY3JV0uZgi-13" target="68EpW2Q39iIY3JV0uZgi-60" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -177,16 +177,16 @@
           <mxGeometry x="-37.5" y="650" width="85" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aNaDECgKNZufi2HG2jja-1" value="Training start - end" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
-          <mxGeometry x="-500" y="360" width="120" height="60" as="geometry" />
+          <mxGeometry x="-960" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-58" value="&lt;span style=&quot;font-family: &amp;#34;arial&amp;#34; ; font-size: 13px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Seperate system monitor from core to other repo&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="-800" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aNaDECgKNZufi2HG2jja-2" value="why training can not finish" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-940" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="-950" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="68EpW2Q39iIY3JV0uZgi-15" value="Swarm&lt;br&gt;(service version controll)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" parent="1" vertex="1">
-          <mxGeometry x="-780" y="355" width="70" height="65" as="geometry" />
+          <mxGeometry x="-940" y="415" width="70" height="65" as="geometry" />
         </mxCell>
         <mxCell id="aNaDECgKNZufi2HG2jja-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="aNaDECgKNZufi2HG2jja-1" target="68EpW2Q39iIY3JV0uZgi-60" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -214,6 +214,9 @@
             <mxPoint x="-200" y="410" as="sourcePoint" />
             <mxPoint x="-150" y="360" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eYupvJDhiCg_cBdyEUQ8-2" value="Monitor Items" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="310" width="230" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
