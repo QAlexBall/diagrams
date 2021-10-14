@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T08:28:09.419Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="HyvLyHi1tiKeFfBpKzOI" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-14T08:28:54.707Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="BI_9_HHX4sxI8MglyLmT" version="15.3.7" type="github">
   <diagram id="cdFiqQCw5QngY2doHux9" name="Page-1">
     <mxGraphModel dx="1550" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -852,7 +852,7 @@
         <mxCell id="TVG5I1HDKWepKC15KVvj-343" value="2. Measurable: Set metric for issue &amp; tasks (time period, scope)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-339">
           <mxGeometry y="120" width="940" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TVG5I1HDKWepKC15KVvj-344" value="3. Continuous Learning: Retrospective every two weeks." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-339">
+        <mxCell id="TVG5I1HDKWepKC15KVvj-344" value="3. Continuous Learning: Retrospective every two weeks. Technical sharing." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-339">
           <mxGeometry y="150" width="940" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TVG5I1HDKWepKC15KVvj-345" value="4. " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-339">
