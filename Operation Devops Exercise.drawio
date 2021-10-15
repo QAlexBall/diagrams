@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T05:09:48.275Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="yjB28nuLMLC81WfS8-rh" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-15T05:24:08.077Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="u8WDd_e7XN5zR3lk9MbU" version="15.3.7" type="github">
   <diagram id="cdFiqQCw5QngY2doHux9" name="Page-1">
     <mxGraphModel dx="2067" dy="1109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -832,7 +832,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TVG5I1HDKWepKC15KVvj-339" value="Action Items" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="600" y="3620" width="730" height="180" as="geometry" />
+          <mxGeometry x="590" y="3560" width="730" height="210" as="geometry" />
         </mxCell>
         <mxCell id="TVG5I1HDKWepKC15KVvj-340" value="Target: deliver &amp; maintenance stable system as soon as possible, flexible to handle variety tasks." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-339">
           <mxGeometry y="30" width="730" height="30" as="geometry" />
@@ -846,8 +846,11 @@
         <mxCell id="TVG5I1HDKWepKC15KVvj-343" value="2. Measurable: Set metric for issue &amp; tasks (time period, scope)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-339">
           <mxGeometry y="120" width="730" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TVG5I1HDKWepKC15KVvj-344" value="3. Continuous Learning: Retrospective every two weeks. Technical sharing." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-339">
+        <mxCell id="TVG5I1HDKWepKC15KVvj-351" value="3. Feedback: System monitor, Retro" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-339">
           <mxGeometry y="150" width="730" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TVG5I1HDKWepKC15KVvj-344" value="4. Continuous Learning: Retrospective every two weeks. Technical sharing." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-339">
+          <mxGeometry y="180" width="730" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TVG5I1HDKWepKC15KVvj-346" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TVG5I1HDKWepKC15KVvj-225" target="TVG5I1HDKWepKC15KVvj-287">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
