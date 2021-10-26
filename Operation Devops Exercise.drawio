@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T05:43:34.654Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="_a1Ky2t0-3z2hlOtWfDB" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-26T09:53:59.137Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="23NLCXWE3A0kpQ-po0bV" version="15.5.7" type="github">
   <diagram id="cdFiqQCw5QngY2doHux9" name="Page-1">
-    <mxGraphModel dx="1694" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -529,7 +529,7 @@
         <mxCell id="TVG5I1HDKWepKC15KVvj-280" value="Upgrade tools" style="text;strokeColor=none;fillColor=#D5E8D4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="TVG5I1HDKWepKC15KVvj-277" vertex="1">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="y3xYMGwSDXPFTG1fiwFM-1" value="&#xa;Release Note" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="TVG5I1HDKWepKC15KVvj-277">
+        <mxCell id="y3xYMGwSDXPFTG1fiwFM-1" value="&#xa;Release Note" style="text;strokeColor=none;fillColor=#FFFFFF;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="TVG5I1HDKWepKC15KVvj-277" vertex="1">
           <mxGeometry y="60" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TVG5I1HDKWepKC15KVvj-279" value="" style="endArrow=classic;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="TVG5I1HDKWepKC15KVvj-166" source="TVG5I1HDKWepKC15KVvj-277" target="TVG5I1HDKWepKC15KVvj-272" edge="1">
@@ -865,11 +865,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="y3xYMGwSDXPFTG1fiwFM-2" value="Product&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="230" y="2100" width="80" height="80" as="geometry" />
+        <mxCell id="y3xYMGwSDXPFTG1fiwFM-2" value="Product&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="230" y="2160" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="y3xYMGwSDXPFTG1fiwFM-3" value="Operation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="480" y="2100" width="80" height="80" as="geometry" />
+        <mxCell id="y3xYMGwSDXPFTG1fiwFM-3" value="Operation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="460" y="2160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nt3PVIeSVGHvHOstJinX-1" value="Deploy 3 * 38&lt;br&gt;Vendor support 2&amp;nbsp; * 38&lt;br&gt;Client support 3 * 38&lt;br&gt;sales support (poc, sales-demo)&lt;br&gt;&lt;br&gt;Upgrade: 12 * 2 * 5&lt;br&gt;Maintenance:&amp;nbsp; 2 * 52&lt;br&gt;&lt;br&gt;Develop(System monitor, superset, sanity_test, ): 5 * 50&lt;br&gt;Integration: 38 * 3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1582.5" width="357.5" height="357.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
