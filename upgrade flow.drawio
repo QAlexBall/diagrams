@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-27T03:48:22.551Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="RNqZfv5_Y5XkAVNWskyl" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-27T04:50:30.568Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="RgXJHE_3aJA3IMinsjK5" version="15.5.9" type="github">
   <diagram id="WMZ49jixNT1sI_v1qL2q" name="Page-1">
     <mxGraphModel dx="1550" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ybdO_HFeEsixN0G0Ifar-4" value="Ops" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="140" y="630" width="890" height="210" as="geometry" />
+          <mxGeometry x="140" y="630" width="890" height="280" as="geometry" />
         </mxCell>
         <mxCell id="ybdO_HFeEsixN0G0Ifar-5" value="Update Auto Upgrade Script" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ybdO_HFeEsixN0G0Ifar-4">
           <mxGeometry x="50" y="60" width="80" height="80" as="geometry" />
@@ -83,6 +83,33 @@
             <mxPoint x="60" y="210" as="sourcePoint" />
             <mxPoint x="110" y="160" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ybdO_HFeEsixN0G0Ifar-25" value="Upload packages to Clients" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ybdO_HFeEsixN0G0Ifar-4">
+          <mxGeometry x="40" y="190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ybdO_HFeEsixN0G0Ifar-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ybdO_HFeEsixN0G0Ifar-4" source="ybdO_HFeEsixN0G0Ifar-25" target="ybdO_HFeEsixN0G0Ifar-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="160" as="sourcePoint" />
+            <mxPoint x="490" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ybdO_HFeEsixN0G0Ifar-20" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="930" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ybdO_HFeEsixN0G0Ifar-21" value="Update Auto Upgrade Script 1MD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ybdO_HFeEsixN0G0Ifar-20">
+          <mxGeometry y="30" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ybdO_HFeEsixN0G0Ifar-22" value="Test 0.5MD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ybdO_HFeEsixN0G0Ifar-20">
+          <mxGeometry y="60" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ybdO_HFeEsixN0G0Ifar-23" value="Start Upgrade (C1 + C2) 0.5MD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ybdO_HFeEsixN0G0Ifar-20">
+          <mxGeometry y="90" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ybdO_HFeEsixN0G0Ifar-24" value="Start Upgrade (C3, can&#39;t remote access by ssh) 1MD" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ybdO_HFeEsixN0G0Ifar-20">
+          <mxGeometry y="120" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
