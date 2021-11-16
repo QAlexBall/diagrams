@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-16T09:52:37.033Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="N0EpvXIJDj7Q-CI9-IKN" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T09:57:15.206Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="unqUUu_Rg6mdqzqfJFmS" version="15.7.3" type="github">
   <diagram id="cdFiqQCw5QngY2doHux9" name="Page-1">
     <mxGraphModel dx="1369" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -875,22 +875,61 @@
           <mxGeometry x="1150" y="1582.5" width="357.5" height="357.5" as="geometry" />
         </mxCell>
         <mxCell id="mAhLwM-1dZzHnAY642l9-2" value="Edge" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="3630" y="825" width="290" height="90" as="geometry" />
+          <mxGeometry x="3680" y="770" width="290" height="235" as="geometry" />
         </mxCell>
         <mxCell id="mAhLwM-1dZzHnAY642l9-3" value="X" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mAhLwM-1dZzHnAY642l9-2">
-          <mxGeometry x="30" y="35" width="90" height="35" as="geometry" />
+          <mxGeometry x="30" y="70" width="90" height="95" as="geometry" />
         </mxCell>
         <mxCell id="mAhLwM-1dZzHnAY642l9-9" value="X" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mAhLwM-1dZzHnAY642l9-2">
-          <mxGeometry x="160" y="35" width="90" height="35" as="geometry" />
+          <mxGeometry x="160" y="70" width="90" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="mAhLwM-1dZzHnAY642l9-8" value="Device Manager &lt;br&gt;(Ansible Enventory + config)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3300" y="760" width="185" height="60" as="geometry" />
+        <mxCell id="mAhLwM-1dZzHnAY642l9-13" value="Cloud (Local Side)" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="710" width="750" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="mAhLwM-1dZzHnAY642l9-11" value="Deploy Manager &lt;br&gt;(Ansible-Playbook)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3300" y="870" width="185" height="60" as="geometry" />
+        <mxCell id="mAhLwM-1dZzHnAY642l9-8" value="Device Manager &lt;br&gt;(Ansible Enventory + config)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mAhLwM-1dZzHnAY642l9-13">
+          <mxGeometry x="475" y="45" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mAhLwM-1dZzHnAY642l9-12" value="Release Agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3300" y="980" width="185" height="60" as="geometry" />
+        <mxCell id="mAhLwM-1dZzHnAY642l9-11" value="Deploy Manager &lt;br&gt;(Ansible-Playbook)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mAhLwM-1dZzHnAY642l9-13">
+          <mxGeometry x="475" y="150" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-12" value="Release Agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mAhLwM-1dZzHnAY642l9-13">
+          <mxGeometry x="475" y="250" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3635" y="568" width="380" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-15" value="Camera" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3785" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-16" value="Camera" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3660" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-17" value="Camera" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="3900" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mAhLwM-1dZzHnAY642l9-2" target="mAhLwM-1dZzHnAY642l9-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3320" y="800" as="sourcePoint" />
+            <mxPoint x="3370" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-20" value="autossh" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3575" y="847.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mAhLwM-1dZzHnAY642l9-20" target="mAhLwM-1dZzHnAY642l9-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3320" y="800" as="sourcePoint" />
+            <mxPoint x="3370" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mAhLwM-1dZzHnAY642l9-25" target="mAhLwM-1dZzHnAY642l9-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3550" y="888" as="sourcePoint" />
+            <mxPoint x="3370" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-25" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="3430" y="847.5" width="100" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
