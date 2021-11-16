@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-26T09:53:59.137Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="23NLCXWE3A0kpQ-po0bV" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-16T09:52:37.033Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="N0EpvXIJDj7Q-CI9-IKN" version="15.7.3" type="github">
   <diagram id="cdFiqQCw5QngY2doHux9" name="Page-1">
-    <mxGraphModel dx="1550" dy="832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1369" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -871,8 +871,26 @@
         <mxCell id="y3xYMGwSDXPFTG1fiwFM-3" value="Operation" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="460" y="2160" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="nt3PVIeSVGHvHOstJinX-1" value="Deploy 3 * 38&lt;br&gt;Vendor support 2&amp;nbsp; * 38&lt;br&gt;Client support 3 * 38&lt;br&gt;sales support (poc, sales-demo)&lt;br&gt;&lt;br&gt;Upgrade: 12 * 2 * 5&lt;br&gt;Maintenance:&amp;nbsp; 2 * 52&lt;br&gt;&lt;br&gt;Develop(System monitor, superset, sanity_test, ): 5 * 50&lt;br&gt;Integration: 38 * 3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="nt3PVIeSVGHvHOstJinX-1" value="Deploy 3 * 38&lt;br&gt;Vendor support 2&amp;nbsp; * 38&lt;br&gt;Client support 3 * 38&lt;br&gt;sales support (poc, sales-demo)&lt;br&gt;&lt;br&gt;Upgrade: 12 * 2 * 5&lt;br&gt;Maintenance:&amp;nbsp; 2 * 52&lt;br&gt;&lt;br&gt;Develop(System monitor, superset, sanity_test, ): 5 * 50&lt;br&gt;Integration: 38 * 3" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1150" y="1582.5" width="357.5" height="357.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-2" value="Edge" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="3630" y="825" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-3" value="X" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mAhLwM-1dZzHnAY642l9-2">
+          <mxGeometry x="30" y="35" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-9" value="X" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mAhLwM-1dZzHnAY642l9-2">
+          <mxGeometry x="160" y="35" width="90" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-8" value="Device Manager &lt;br&gt;(Ansible Enventory + config)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="760" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-11" value="Deploy Manager &lt;br&gt;(Ansible-Playbook)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="870" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mAhLwM-1dZzHnAY642l9-12" value="Release Agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3300" y="980" width="185" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
