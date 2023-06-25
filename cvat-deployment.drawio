@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T06:37:34.728Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0NUUpSc2lwPNqSMyfhq7" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-25T07:07:32.860Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fnn_xwYy-pCgfJ8FiXBx" version="21.3.5" type="github">
   <diagram name="Page-1" id="Uf6m5s5soV7Gj-OxLGIB">
-    <mxGraphModel dx="3292" dy="1440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2286" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,6 +157,24 @@
               <mxPoint x="310" y="1070" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lHTlmMKO7MYDzkG5uPYg-67" value="1. Functional Testing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHTlmMKO7MYDzkG5uPYg-70" value="2. Data Backup" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="550" y="670" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHTlmMKO7MYDzkG5uPYg-71" value="3. Data Transfer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="550" y="710" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHTlmMKO7MYDzkG5uPYg-72" value="4. Data Checking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="630" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHTlmMKO7MYDzkG5uPYg-73" value="6. Switch Environment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="710" y="710" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lHTlmMKO7MYDzkG5uPYg-74" value="5. ML Data Checking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="670" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
