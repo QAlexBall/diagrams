@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T03:47:41.212Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="jjNO_x3U2LOD5INyytXf" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T03:52:22.375Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="hw3Ga9CvgcAaA250m6JQ" version="21.8.2" type="github">
   <diagram name="Page-1" id="hQwGyKhbjzrT1JZe0jhg">
     <mxGraphModel dx="2594" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -91,7 +91,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8oCGStmulFOt3wNiHvip-9" value="Assets Manament" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="320" width="200" height="200" as="geometry" />
+          <mxGeometry x="70" y="320" width="200" height="280" as="geometry" />
         </mxCell>
         <mxCell id="8oCGStmulFOt3wNiHvip-10" value="AWS" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="8oCGStmulFOt3wNiHvip-9">
           <mxGeometry x="30" y="30" width="120" height="80" as="geometry" />
@@ -99,8 +99,11 @@
         <mxCell id="8oCGStmulFOt3wNiHvip-13" value="Google Driver" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="8oCGStmulFOt3wNiHvip-9">
           <mxGeometry x="30" y="110" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="8oCGStmulFOt3wNiHvip-48" value="Gitlab" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="8oCGStmulFOt3wNiHvip-9">
+          <mxGeometry x="30" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="8oCGStmulFOt3wNiHvip-14" value="Notifications&lt;br&gt;(Quality Control)" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="70" y="570" width="200" height="200" as="geometry" />
+          <mxGeometry x="590" y="640" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="8oCGStmulFOt3wNiHvip-15" value="Google Mail" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8oCGStmulFOt3wNiHvip-14">
           <mxGeometry x="40" y="50" width="120" height="60" as="geometry" />
