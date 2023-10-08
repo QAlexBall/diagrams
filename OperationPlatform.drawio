@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T04:02:18.320Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="faKkhMvXcyPwhoS3WgKq" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T04:15:35.017Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="qC-8ZLSgfXFgLGvZJ2VU" version="21.8.2" type="github">
   <diagram name="Page-1" id="hQwGyKhbjzrT1JZe0jhg">
-    <mxGraphModel dx="2885" dy="2327" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3292" dy="2572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -250,6 +250,21 @@
             <mxPoint x="890" y="670" as="sourcePoint" />
             <mxPoint x="940" y="620" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8oCGStmulFOt3wNiHvip-96" value="One Stage Check" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8oCGStmulFOt3wNiHvip-97" value="Check All Services are work" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oCGStmulFOt3wNiHvip-96">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8oCGStmulFOt3wNiHvip-100" value="2 Stage Check" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1400" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8oCGStmulFOt3wNiHvip-101" value="Check Operation Services are work" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oCGStmulFOt3wNiHvip-100">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8oCGStmulFOt3wNiHvip-102" value="If First Stage work, wait operation service raise issue." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="8oCGStmulFOt3wNiHvip-100">
+          <mxGeometry y="60" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
